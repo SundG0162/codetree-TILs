@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int h,w;
     cin >> h >> w;
-    int b = (10000 * 2) / (h * h);   
+    int b = (10000 * w) / (h * h);   
     cout << b;
     if(b >= 25)
     {
