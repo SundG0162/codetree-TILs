@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    float a,b;
+    double a,b;
     cin >> a >> b;
     cout.precision(3);
     cout << (a + b) / (a-b);
