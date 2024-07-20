@@ -6,6 +6,6 @@ int main() {
     cin >> a>> b>>c;
 
     int min = a > b ? b > c ? c : b : b > c ? b : a;
-    cout << (a == b) << " " << (a == b && b == c);
+    cout << (a == min) << " " << (a == b && b == c);
     return 0;
 }
