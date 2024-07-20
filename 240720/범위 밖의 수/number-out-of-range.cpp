@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int a;
-    cin >> b;
+    cin >> a;
     cout << (a > 10 || a > 20);
     return 0;
 }
